@@ -38,5 +38,3 @@ ma.init_app(app)
 app.json_encoder = JSONEncoder
 
 CORS(app)
-
-from drone_inventory import models
